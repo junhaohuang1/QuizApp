@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">American History Quiz!</string>
+    <string name="question_1">1. Who was the first president of the United States?</string>
+    <string name="question_2">2. Independence Day was first established as a holiday by Congress in what year?</string>
+    <string name="question_3">3. Which of the following states were part of the 13 original states?</string>
+    <string name="question_4">4. Where was the first Fourth of July celebration with a fireworks display held?</string>
+    <string name="question_5">5. Who was the first president to appear on television?</string>
+    <string name="question_3_answer_1">New Jersey</string>
+    <string name="question_3_answer_2">New York</string>
+    <string name="question_3_answer_3">Georgia</string>
+    <string name="question_3_answer_4">California</string>
+    <string name="question_1_answer_1">Thomas Jefferson</string>
+    <string name="question_1_answer_2">George Washington</string>
+    <string name="question_1_answer_3">John Adams</string>
+    <string name="question_4_answer_1">Washington D.C</string>
+    <string name="question_4_answer_2">New York</string>
+    <string name="question_4_answer_3">Boston, Massachusetts</string>
+    <string name="question_5_answer_1">Franklin D. Roosevelt</string>
+    <string name="question_5_answer_2">Harry Truman</string>
+    <string name="question_5_answer_3">Ronald Reagan</string>
+    <string name="submit">Submit</string>
+</resources>

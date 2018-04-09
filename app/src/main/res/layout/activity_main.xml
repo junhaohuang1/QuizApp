@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/app_name"
+            android:text="@string/app_name">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/question_1_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_title"
+                android:text="@string/question_1" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/radio_group_linear_layout_style">
+
+                <RadioButton
+                    android:id="@+id/radio_thomas_jefferson"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/question_1_answer_1" />
+
+                <RadioButton
+                    android:id="@+id/radio_george_washington"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/question_1_answer_2" />
+
+                <RadioButton
+                    android:id="@+id/radio_john_adams"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/question_1_answer_3" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_2_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_title"
+                android:text="@string/question_2" />
+
+            <EditText
+                android:id="@+id/question_2_edit_text"
+                style="@style/edit_text_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_3_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_title"
+                android:text="@string/question_3" />
+
+            <CheckBox
+                android:id="@+id/question_3_option_one"
+                style="@style/check_box_style"
+                android:text="@string/question_3_answer_1"/>
+
+            <CheckBox
+                android:id="@+id/question_3_option_two"
+                style="@style/check_box_style"
+                android:text="@string/question_3_answer_2" />
+
+            <CheckBox
+                android:id="@+id/question_3_option_three"
+                style="@style/check_box_style"
+                android:text="@string/question_3_answer_3" />
+
+            <CheckBox
+                android:id="@+id/question_3_option_four"
+                style="@style/check_box_style"
+                android:text="@string/question_3_answer_4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_4_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_title"
+                android:text="@string/question_4" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/radio_group_linear_layout_style">
+
+                <RadioButton
+                    android:id="@+id/radio_dc"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/question_4_answer_1" />
+
+                <RadioButton
+                    android:id="@+id/radio_ny"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/question_4_answer_2" />
+
+                <RadioButton
+                    android:id="@+id/radio_boston"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/question_4_answer_3" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_5_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_title"
+                android:text="@string/question_5" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/radio_group_linear_layout_style">
+
+                <RadioButton
+                    android:id="@+id/radio_roosevelt"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/question_5_answer_1" />
+
+                <RadioButton
+                    android:id="@+id/radio_truman"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/question_5_answer_2" />
+
+                <RadioButton
+                    android:id="@+id/radio_reagan"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/question_5_answer_3" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitButton"
+            style="@style/submit_button"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+</ScrollView>
